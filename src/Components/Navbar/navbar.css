@@ -38,6 +38,14 @@
   text-align: center;
 }
 
+.icons {
+  margin-right:  1.6rem;
+}
+
+.icon {
+  margin-right: 1rem;
+}
+
 .navli a {
   text-decoration: none;
   color: rgb(0, 0, 0);
@@ -50,15 +58,13 @@
 }
 
 .bar {
-  display: block;
+ 
   background-color: #4b4b4b;
   height: 4px ;
   width: 27px;
-  margin-top: 5px;
-  margin-bottom: 5px ;
-  transform: rotate(0deg) ;
-  left: 0 ;
-  opacity: 1 ;
+  margin-top: 1px;
+  margin-bottom: 2px ;
+
 }
 
 
@@ -77,6 +83,9 @@
 
   .navul.open {
     display: flex;
+    z-index: 1;
+    width: 50%;
+    margin: 0 auto;  
   }
 
   .navli {
@@ -86,7 +95,8 @@
   .hamburger {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center;   
+    margin-right: 25rem;
   }
 
   .bar.animate1 {

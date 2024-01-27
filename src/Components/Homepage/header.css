@@ -42,7 +42,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  color: #fff; /* Adjust text color as needed */
+  color: #fff; 
 }
 
 .textContainer h4 {

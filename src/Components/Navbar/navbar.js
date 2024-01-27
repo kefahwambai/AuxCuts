@@ -58,9 +58,9 @@ function Navbar() {
           <div className={`bar ${mobileMenuOpen ? 'animate3' : ''}`}></div>
         </div>
         <div className="icons">
-        <AiOutlineSearch className="icon" size={30} style={{ marginRight: '13px' }} />
-          <AiOutlineUser className="icon" size={30} style={{ marginRight: '10px' }} />
-          <AiOutlineShoppingCart className="icon" size={30} style={{ marginRight: '10px' }} />
+        <AiOutlineSearch className="icon" size={30}  />
+          <AiOutlineUser className="icon" size={30}  />
+          <AiOutlineShoppingCart className="icon" size={30}  />
           
         </div>     
       </nav>
